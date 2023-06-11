@@ -1,0 +1,46 @@
+#main {
+  background-color: #1f1f1f;
+  padding: 220px 0;
+  position: relative;
+  overflow: hidden;
+}
+#main svg {
+  color: #1f1f1f;
+}
+#main p,
+#main h2,
+#main h4 {
+  color: #fafafa;
+}
+#main .heading__wrapper {
+  margin-bottom: 220px;
+}
+#main .heading__wrapper h2 {
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+#main .heading__wrapper .heading__span {
+  color: #f5b637;
+  font-style: italic;
+}
+#main .inform__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#main .inform__wrapper .item {
+  width: 323px;
+}
+#main .inform__wrapper .item h4 {
+  margin-bottom: 30px;
+}
+#main .inform__wrapper .item .icon__wrapper {
+  background-color: #f5b637;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 91px;
+  height: 48px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=userInform.module.css.map */

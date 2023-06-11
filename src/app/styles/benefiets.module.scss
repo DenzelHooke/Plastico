@@ -1,0 +1,47 @@
+@import 'utilities/variables';
+
+#main {
+  width: 100%;
+  //   background-color: $grey;
+  // margin-top: 100px;
+}
+
+.item__wrapper {
+  $item__bg: rgb(255, 255, 255);
+
+  .item {
+    padding: 20px;
+    text-align: center;
+    background-color: $item__bg;
+    height: 300px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon__wrapper {
+      display: flex;
+      justify-content: center;
+      // margin-bottom: 10cpx;
+
+      .icon__wrapper_inner {
+        background-color: $brand-purple-lightened;
+        padding: 18px;
+        border-radius: 50%;
+      }
+    }
+
+    svg {
+      color: $brand-purple;
+    }
+
+    h3 {
+      color: $dark-black;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: rgb(105, 105, 105);
+    }
+  }
+}

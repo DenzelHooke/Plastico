@@ -1,0 +1,58 @@
+@import 'utilities/variables';
+
+#main {
+  h2 {
+    text-align: center;
+    padding: $heading-padding 0;
+
+    // span {
+    //   color: $brand-purple;
+    // }
+  }
+
+  .inner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: $flex-page-gap;
+  }
+
+  .text__wrapper {
+    max-width: 533px;
+
+    background-color: $white;
+    border-radius: $border-radius;
+    // padding: $card-padding;
+
+    // -webkit-box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.41);
+    // -moz-box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.41);
+    // box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.41);
+
+    h3 {
+      padding-bottom: 40px;
+
+      span {
+        position: relative;
+
+        &::after {
+          position: absolute;
+          content: '';
+          height: 4px;
+          width: 100%;
+          bottom: -6px;
+          left: 0;
+          background-color: $brand-purple;
+          transform: rotate(-3deg);
+        }
+      }
+    }
+
+    p {
+      margin-bottom: 15px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

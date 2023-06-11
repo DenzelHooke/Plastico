@@ -1,0 +1,149 @@
+@import 'utilities/variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  background-color: $white;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark-black;
+}
+
+p {
+  font-size: $default-font-size;
+  line-height: 27px;
+}
+
+button {
+  font-size: $default-font-size;
+}
+
+soan {
+  font-size: inherit;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.flex__space {
+  justify-content: space-between;
+}
+
+.flex__align {
+  align-items: center;
+}
+
+.ul__li--none {
+  list-style: none;
+}
+
+.svg {
+}
+
+.large-heading {
+  font-size: 67px;
+}
+
+.medium-heading {
+  font-size: 30px;
+}
+
+.medium-sub-heading {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.medium-sub-heading-2 {
+  font-size: 25.88px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.default-text {
+  font-size: $default-font-size;
+}
+
+.highlight-text {
+  font-weight: bold;
+  color: $highlight-color;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.flat-grey {
+  color: $flat-grey;
+}
+
+.button {
+  border-style: none;
+  border-radius: 0;
+  border: none;
+  padding: 10px;
+  border-radius: $border-radius;
+
+  cursor: pointer;
+
+  width: 250px;
+  height: 55px;
+}
+
+.section {
+  margin: 100px 0;
+}
+
+.text__wrapper {
+  max-width: 533px;
+}
+
+::selection {
+  background-color: $brand-purple;
+  color: white;
+}
+
+.image__wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+  width: 700px;
+  height: auto;
+}
+
+.card {
+  padding: 20px;
+  border-radius: $border-radius;
+}
+
+.card__shadow {
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.33);
+}

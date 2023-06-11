@@ -1,0 +1,30 @@
+#main {
+  padding: 80px 0;
+}
+#main h2 {
+  padding: 80px 0;
+}
+#main .inner__wrapper {
+  display: flex;
+  gap: 40px;
+}
+#main .outer__text__wrapper {
+  display: flex;
+  justify-content: end;
+  order: 2;
+  flex-grow: 100;
+}
+#main .text__wrapper {
+  width: 485px;
+}
+#main .text__wrapper h3 {
+  background-color: #1f1f1f;
+  color: #fafafa;
+  width: 485px;
+  text-align: center;
+  margin-bottom: 82px;
+  padding: 10px;
+}
+#main .text__wrapper p span {
+  font-weight: bold;
+}/*# sourceMappingURL=workforce.module.css.map */

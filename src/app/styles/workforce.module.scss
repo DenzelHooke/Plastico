@@ -1,0 +1,39 @@
+@import 'utilities/variables';
+
+#main {
+  padding: $page-padding 0;
+
+  h2 {
+    padding: $heading-padding 0;
+  }
+
+  .inner__wrapper {
+    display: flex;
+    gap: $flex-page-gap;
+  }
+
+  .outer__text__wrapper {
+    display: flex;
+    justify-content: end;
+    order: 2;
+    flex-grow: 100;
+  }
+
+  .text__wrapper {
+    width: 485px;
+    h3 {
+      background-color: $dark-black;
+      color: $white;
+      width: 485px;
+      text-align: center;
+      margin-bottom: 82px;
+      padding: 10px;
+    }
+
+    p {
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

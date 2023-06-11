@@ -1,0 +1,80 @@
+@import 'utilities/variables';
+
+#main {
+  background-color: $dark-black;
+  // min-height: 80vh;
+
+  padding: 220px 0;
+
+  position: relative;
+  overflow: hidden;
+
+  // TODO SLANT TOP OF DIV
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   // width: 200vw;
+  //   height: 80px;
+  //   right: 0px;
+  //   left: 0px;
+  //   top: 0;
+  //   transform: skewY(-2deg);
+  //   background-color: $white;
+  //   z-index: 2;
+  //   // overflow: hidden;
+  //   // clip-path: polygon(100% 65%, 100% 100%, 0 100%, 0 0);
+  // }
+
+  // display: flex;
+
+  // align-items: center;
+
+  svg {
+    color: $dark-black;
+  }
+
+  p,
+  h2,
+  h4 {
+    color: $white;
+  }
+
+  .heading__wrapper {
+    margin-bottom: 220px;
+    h2 {
+      text-align: center;
+      max-width: 600px;
+      margin-bottom: 15px;
+    }
+
+    .heading__span {
+      color: $yellow-1;
+      font-style: italic;
+    }
+  }
+
+  .inform__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      width: 323px;
+
+      h4 {
+        margin-bottom: 30px;
+      }
+
+      .icon__wrapper {
+        background-color: $yellow-1;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: $border-radius-extra;
+        height: 48px;
+
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

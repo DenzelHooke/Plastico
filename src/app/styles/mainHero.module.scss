@@ -1,0 +1,31 @@
+@import 'utilities/variables';
+
+#main {
+  padding-top: 40px;
+  min-height: 90vh;
+  background-image: url('/assets/bottle-hero.jpg');
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // padding-left: 40px;
+
+  .inner {
+    max-width: 550px;
+    padding-top: 50px;
+
+    .inner_2 {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+
+      button {
+        background-color: $brand-purple;
+        color: $white;
+        font-weight: bold;
+        font-family: 'Poppins';
+        margin-right: 40px;
+      }
+    }
+  }
+}

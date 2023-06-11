@@ -1,0 +1,14 @@
+#main {
+  background-color: #657bed;
+  height: 220px;
+}
+#main .items__wrapper {
+  flex: 100;
+  display: flex;
+  justify-content: space-between;
+}
+#main .item {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=stats.module.css.map */

@@ -1,0 +1,22 @@
+@import 'utilities/variables';
+
+#main {
+  $item-padding: 20px;
+  background-color: $blue-bg;
+  height: 220px;
+
+  .items__wrapper {
+    flex: 100;
+    // max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item {
+    padding: $item-padding;
+
+    color: white;
+
+    text-align: center;
+  }
+}

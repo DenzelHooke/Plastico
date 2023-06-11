@@ -1,0 +1,15 @@
+#nav {
+  height: 100px;
+  background-color: #fafafa;
+  padding: 10px;
+}
+#nav ul {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex: 100;
+  padding: 0 10px;
+}
+#nav ul li {
+  margin: 0 40px;
+}/*# sourceMappingURL=navbar.module.css.map */
