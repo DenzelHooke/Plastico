@@ -22,8 +22,9 @@
     grid-column: 2 / 3;
 
     .item {
-      padding-top: 220px;
+      // padding-top: 220px;
       &::after {
+        display: none;
         top: 0px;
       }
     }

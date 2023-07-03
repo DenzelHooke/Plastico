@@ -1,6 +1,7 @@
 @import 'utilities/variables.scss';
 
 #main {
+  background-color: white;
   .items__wrapper {
     .item {
       .item__text__wrapper {
@@ -8,7 +9,7 @@
           padding-bottom: 25px;
         }
         .item__text__wrapper__body {
-          max-width: 50%;
+          max-width: 500px;
         }
       }
 
@@ -69,14 +70,11 @@
         .item__text__wrapper {
           order: 2;
           flex-shrink: 100;
-          max-width: 500px;
-
-          .item__text__wrapper__body {
-            max-width: 100%;
-          }
         }
+
         .image__wrapper {
           order: 1;
+          flex-wrap: wrap;
 
           grid-template-columns: 1fr 20px 170px;
           .stat__wrapper {

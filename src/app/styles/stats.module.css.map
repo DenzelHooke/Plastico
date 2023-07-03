@@ -1,1 +1,1 @@
-{"version":3,"sources":["stats.module.scss","utilities/_variables.scss","stats.module.css"],"names":[],"mappings":"AAEA;EAEE,yBCEQ;EDDR,aAAA;AEFF;AFIE;EACE,SAAA;EAEA,aAAA;EACA,8BAAA;AEHJ;AFME;EACE,aAZa;EAcb,YAAA;EAEA,kBAAA;AENJ","file":"stats.module.css"}
+{"version":3,"sources":["stats.module.scss","utilities/_variables.scss","stats.module.css"],"names":[],"mappings":"AAEA;EAEE,yBCOa;EDNb,aAAA;AEFF;AFIE;EACE,SAAA;EAEA,aAAA;EACA,8BAAA;AEHJ;AFME;EACE,aAZa;EAcb,cCPQ;EDSR,kBAAA;AENJ","file":"stats.module.css"}

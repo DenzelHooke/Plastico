@@ -1,7 +1,12 @@
 #nav {
-  height: 100px;
+  height: 80px;
   background-color: #fafafa;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #nav ul {
   width: 100%;

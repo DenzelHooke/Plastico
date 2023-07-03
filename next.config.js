@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images.pexels.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'bottle-site.s3.us-west-1.amazonaws.com',
+      },
     ],
   },
 };

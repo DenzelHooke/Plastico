@@ -1,8 +1,11 @@
+#main {
+  background-color: white;
+}
 #main .items__wrapper .item .item__text__wrapper .item__text__wrapper__title {
   padding-bottom: 25px;
 }
 #main .items__wrapper .item .item__text__wrapper .item__text__wrapper__body {
-  max-width: 50%;
+  max-width: 500px;
 }
 #main .items__wrapper .item .image__wrapper {
   display: grid;
@@ -57,13 +60,10 @@
 #main .items__wrapper .item.even .item__text__wrapper {
   order: 2;
   flex-shrink: 100;
-  max-width: 500px;
-}
-#main .items__wrapper .item.even .item__text__wrapper .item__text__wrapper__body {
-  max-width: 100%;
 }
 #main .items__wrapper .item.even .image__wrapper {
   order: 1;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 20px 170px;
 }
 #main .items__wrapper .item.even .image__wrapper .stat__wrapper {

@@ -1,6 +1,6 @@
 #main {
-  background-color: #657bed;
-  height: 220px;
+  background-color: #f5f5f5;
+  height: 180px;
 }
 #main .items__wrapper {
   flex: 100;
@@ -9,6 +9,6 @@
 }
 #main .item {
   padding: 20px;
-  color: white;
+  color: #848484;
   text-align: center;
 }/*# sourceMappingURL=stats.module.css.map */

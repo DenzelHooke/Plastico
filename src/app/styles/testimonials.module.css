@@ -1,0 +1,62 @@
+#main {
+  background: linear-gradient(180deg, #fff 0%, #a169f6 59.33%);
+}
+#main .heading {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#main .flex__wrapper {
+  padding-top: 80px;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#main .item {
+  text-align: center;
+  width: 415px;
+  height: 280px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+#main .item svg {
+  color: rgb(126, 48, 242);
+}
+#main .item .text__wrapper {
+  text-align: left;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#main .item .contact {
+  height: 100%;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+#main .item .contact .name__wrapper {
+  display: flex;
+  align-items: end;
+}
+#main .item .contact p {
+  color: #848484;
+}
+#main .item .contact .image__wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+#main .item .contact .image__wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1600px) {
+  #main .flex__wrapper {
+    justify-content: center !important;
+    gap: 80px;
+    padding: 40px;
+  }
+}/*# sourceMappingURL=testimonials.module.css.map */

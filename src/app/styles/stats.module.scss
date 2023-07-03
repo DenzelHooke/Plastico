@@ -2,8 +2,8 @@
 
 #main {
   $item-padding: 20px;
-  background-color: $blue-bg;
-  height: 220px;
+  background-color: $lighter-grey;
+  height: 180px;
 
   .items__wrapper {
     flex: 100;
@@ -15,7 +15,7 @@
   .item {
     padding: $item-padding;
 
-    color: white;
+    color: $flat-grey;
 
     text-align: center;
   }
