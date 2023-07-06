@@ -1,58 +1,71 @@
 @import 'utilities/variables';
+$card: rgb(245, 245, 245);
 
 #main {
-  $card: rgb(245, 245, 245);
-
   .main__wrapper {
     .heading {
       text-align: center;
       margin-bottom: 80px;
     }
-    .product__collection {
+
+  }
+}
+
+.product__collection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+  .product__collection__item {
+    width: 350px;
+    height: 450px;
+
+    .info {
+      padding-top: 20px;
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
 
-      gap: 20px;
+    .link {
+      font-weight: bold;
+      // padding: 5px 10px;
+      // border: 1px solid $dark-black;
+      
+      // background-color: $card;
+      // border-radius: 100px;
 
-      .product__collection__item {
-        width: 350px;
-        height: 450px;
-
-        .info {
-          padding-top: 20px;
-          display: flex;
-          justify-content: space-between;
-          margin-bottom: 10px;
-        }
-
-        .link {
-          padding: 5px 10px;
-          border: 1px solid $dark-black;
-
-          width: 140px;
-          background-color: $card;
-          border-radius: 100px;
-
-          a {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-          }
-        }
-
-        .image__wrapper {
-          height: 362px;
-          width: 100%;
-          position: relative;
-          background-color: $card;
-          border-radius: $border-radius;
-
-          img {
-            object-fit: cover;
-          }
-        }
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $flat-grey;
       }
+    }
+
+    .image__wrapper {
+      height: 362px;
+      width: 100%;
+      position: relative;
+      background-color: $card;
+      border-radius: $border-radius;
+
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px){
+
+  .product__collection {
+    justify-content: center;
+    
+    .product__collection__item {
+      margin: 50px 0;
     }
   }
 }
