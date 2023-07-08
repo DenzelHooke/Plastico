@@ -12,29 +12,31 @@
 #main h4 {
   color: #fafafa;
 }
-#main .heading__wrapper {
+
+.heading__wrapper {
   margin-bottom: 220px;
 }
-#main .heading__wrapper h2 {
+.heading__wrapper h2 {
   text-align: center;
   max-width: 600px;
   margin-bottom: 15px;
 }
-#main .heading__wrapper .heading__span {
+.heading__wrapper .heading__span {
   color: #f5b637;
   font-style: italic;
 }
-#main .inform__wrapper {
+
+.inform__wrapper {
   display: flex;
   justify-content: space-between;
 }
-#main .inform__wrapper .item {
+.inform__wrapper .item {
   width: 323px;
 }
-#main .inform__wrapper .item h4 {
+.inform__wrapper .item h4 {
   margin-bottom: 30px;
 }
-#main .inform__wrapper .item .icon__wrapper {
+.inform__wrapper .item .icon__wrapper {
   background-color: #f5b637;
   width: 160px;
   display: flex;
@@ -43,4 +45,15 @@
   border-radius: 91px;
   height: 48px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .inform__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inform__wrapper .item .item__heading__wrapper {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=userInform.module.css.map */
