@@ -102,4 +102,15 @@
 }
 
 @media screen and (max-width: 1100px) {
+  #main {
+    .grid {
+      grid-template-columns: 180px 350px 180px;
+
+      .item {
+        h3 {
+          height: 100px;
+        }
+      }
+    }
+  }
 }

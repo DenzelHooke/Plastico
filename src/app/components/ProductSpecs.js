@@ -34,8 +34,9 @@ const ProductSpecs = () => {
               <Image
                 src="/assets/bottle-solo.png"
                 priority
-                width={522}
-                height={522}
+                fill
+                // width={522}
+                // height={522}
               />
             </div>
             <div className={styles.item}>
