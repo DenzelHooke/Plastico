@@ -19,7 +19,16 @@ const ProductSpecs = () => {
         </header>
 
         <div className={styles.grid}>
-          <div className={styles.col_1}>
+          <div className={styles.image}>
+            <Image
+              src="/assets/bottle-solo.png"
+              priority
+              fill
+              // width={522}
+              // height={522}
+            />
+          </div>
+          <div className={styles.item__wrapper}>
             <div className={styles.item}>
               {
                 <ProductSpec
@@ -28,31 +37,18 @@ const ProductSpecs = () => {
                 />
               }
             </div>
-          </div>
-          <div className={styles.col_2}>
-            <div className={styles.image}>
-              <Image
-                src="/assets/bottle-solo.png"
-                priority
-                fill
-                // width={522}
-                // height={522}
-              />
-            </div>
             <div className={styles.item}>
               <ProductSpec
                 heading="Nearby Refill Stations"
                 p=" When low on water, a geolocation signal is emitted which pings
-                nearby water fountains and hydration stations."
+                  nearby water fountains and hydration stations."
               />
             </div>
-          </div>
-          <div className={styles.col_3}>
             <div className={styles.item}>
               <ProductSpec
                 heading="High Capacity Storage"
                 p="With a capacity of 25ml, you’ll never worry about running out of
-                space."
+                  space."
               />
             </div>
           </div>
