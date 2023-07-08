@@ -59,13 +59,13 @@ $card: rgb(245, 245, 245);
   }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1300px){
 
   .product__collection {
     justify-content: center;
     
     .product__collection__item {
-      margin: 50px 0;
+      margin: 50px 30px;
     }
   }
 }
