@@ -84,9 +84,10 @@
     align-items: center;
 
     .item {
+      margin: 20px;
       .item__heading__wrapper {
-        display: flex;
-        justify-content: center;
+        // display: flex;
+        // justify-content: center;
       }
     }
   }
