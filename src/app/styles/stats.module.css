@@ -1,6 +1,7 @@
 #main {
-  background-color: #f5f5f5;
+  background-color: #468BF3;
   height: 180px;
+  padding: 0 80px;
 }
 #main .items__wrapper {
   flex: 100;
@@ -9,6 +10,6 @@
 }
 #main .item {
   padding: 20px;
-  color: #848484;
+  color: white;
   text-align: center;
 }/*# sourceMappingURL=stats.module.css.map */

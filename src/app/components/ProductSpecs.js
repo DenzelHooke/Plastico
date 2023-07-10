@@ -3,6 +3,22 @@ import styles from '../styles/productSpecs.module.scss';
 import ProductSpec from './ProuctSpec';
 
 const ProductSpecs = () => {
+  const data = [
+    {
+      heading: "Double-wall Synthetic Polylactic Acid",
+      p: "Each layer is built using State Synthetic PLA which enables a lifespan of only 2 years when exposed to air."
+    },
+    {
+      heading: "Nearby Refill Stations",
+      p: "When low on water, a geolocation signal is emitted which pings nearby water fountains and hydration stations."
+    },
+    {
+      heading: "High Capacity Storage",
+      p: "With a capacity of 25ml, you’ll never worry about running out of space."
+    },
+
+  ]
+
   return (
     <section id={styles.main} className="section">
       <div className="container">
@@ -29,28 +45,16 @@ const ProductSpecs = () => {
             />
           </div>
           <div className={styles.item__wrapper}>
-            <div className={styles.item}>
-              {
-                <ProductSpec
-                  heading="Double-wall Synthetic Polylactic Acid"
-                  p="Each layer is built using State Synthetic PLA which enables a lifespan of only 2 years when exposed to air."
-                />
-              }
-            </div>
-            <div className={styles.item}>
-              <ProductSpec
-                heading="Nearby Refill Stations"
-                p=" When low on water, a geolocation signal is emitted which pings
-                  nearby water fountains and hydration stations."
-              />
-            </div>
-            <div className={styles.item}>
-              <ProductSpec
-                heading="High Capacity Storage"
-                p="With a capacity of 25ml, you’ll never worry about running out of
-                  space."
-              />
-            </div>
+            {
+              data.map((item) => {
+                return <div className={styles.item}>
+                    <ProductSpec
+                  heading={item.heading}
+                  p={item.p}
+                ></ProductSpec>
+                </div>
+              })
+            }
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ const UserInform = () => {
 
   return (
     <section id={styles.main}>
-      <div className="container">
+      <div className="container section">
         <div className={styles.inner__wrapper}>
           <div className={`flex center ${styles.heading__wrapper}`}>
             <h2 className="medium-heading">

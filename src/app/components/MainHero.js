@@ -2,7 +2,7 @@ import styles from '../styles/mainHero.module.scss';
 
 export default function MainHero() {
   return (
-    <section id={styles.main} className="hero__wrapper">
+    <section id={styles.main} className="hero__wrapper section">
       <div className="container">
         <div className={`${styles.inner}`}>
           <div className={styles.inner__1}>

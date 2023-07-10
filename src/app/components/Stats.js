@@ -18,6 +18,8 @@ const Statistics = () => {
 
   return (
     <div id={styles.main} className="flex center flex__align">
+      div.main
+      
       <div className={`${styles.items__wrapper} container`}>
         {data.map((item) => (
           <>

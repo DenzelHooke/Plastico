@@ -36,7 +36,6 @@ span {
 .container {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 80px 80px;
 }
 
 .flex {
@@ -116,7 +115,7 @@ span {
 }
 
 .section {
-  padding: 150px 0;
+  padding: 150px 80px;
 }
 
 .text__wrapper {
