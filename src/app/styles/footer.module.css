@@ -1,13 +1,10 @@
-@import 'utilities/variables';
-
 #main {
   padding: 80px 40px;
-
-  background-color: $dark-black;
+  background-color: #1f1f1f;
   color: white;
-  p {
-    color: white;
-  }
+}
+#main p {
+  color: white;
 }
 
 .body {
@@ -23,13 +20,11 @@
   max-width: 350px;
   justify-content: space-between;
   flex: 100;
-
-  ul {
-    list-style: none;
-    max-width: 100px;
-    flex: 100;
-    // margin: 0 20px;
-  }
+}
+.resources ul {
+  list-style: none;
+  max-width: 100px;
+  flex: 100;
 }
 
 .copyright {
@@ -48,9 +43,8 @@
   .item__wrapper {
     flex-direction: column;
     align-items: center;
-
-    div {
-      margin: 20px 0;
-    }
   }
-}
+  .item__wrapper div {
+    margin: 20px 0;
+  }
+}/*# sourceMappingURL=footer.module.css.map */

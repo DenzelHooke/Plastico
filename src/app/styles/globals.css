@@ -163,4 +163,18 @@ span {
 }
 .link :visited {
   color: #1f1f1f;
+}
+
+.footer-link {
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    padding: 150px 20px;
+  }
 }/*# sourceMappingURL=globals.css.map */

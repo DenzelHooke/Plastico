@@ -8,6 +8,7 @@ import Stats from './components/Stats';
 import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import FeaturedProducts from './components/FeaturedProducts';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Features />
       <FeaturedProducts />
       <Testimonials />
+      <Footer />
       {/* <AboutUs />
       <Workforce /> */}
     </main>

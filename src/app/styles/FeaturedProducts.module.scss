@@ -7,8 +7,19 @@ $card: rgb(245, 245, 245);
       text-align: center;
       margin-bottom: 80px;
     }
-
   }
+
+  a {
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+      color: $brand-purple;
+    }
+  }
+}
+
+.series {
+  margin-top: -8px;
 }
 
 .product__collection {
@@ -33,7 +44,7 @@ $card: rgb(245, 245, 245);
       font-weight: bold;
       // padding: 5px 10px;
       // border: 1px solid $dark-black;
-      
+
       // background-color: $card;
       // border-radius: 100px;
 
@@ -59,11 +70,10 @@ $card: rgb(245, 245, 245);
   }
 }
 
-@media screen and (max-width: 1300px){
-
+@media screen and (max-width: 1300px) {
   .product__collection {
     justify-content: center;
-    
+
     .product__collection__item {
       margin: 50px 30px;
     }

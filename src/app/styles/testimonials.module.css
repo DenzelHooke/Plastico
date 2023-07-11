@@ -15,7 +15,7 @@
 #main .item {
   text-align: center;
   width: 415px;
-  height: 280px;
+  min-height: 280px;
   padding: 20px 40px;
   border-radius: 10px;
   background-color: white;
@@ -53,6 +53,11 @@
      object-fit: cover;
 }
 
+@media screen and (max-width: 800px) {
+  #main .flex__wrapper {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 1600px) {
   #main .flex__wrapper {
     justify-content: center !important;
