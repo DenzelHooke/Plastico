@@ -1,0 +1,42 @@
+@import 'utilities/variables';
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(227, 227, 227);
+  padding: 20px 40px;
+}
+
+.item {
+  position: relative;
+  width: 200px;
+  object-fit: contain;
+  height: 100px;
+  img {
+    opacity: 50%;
+    object-fit: contain;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  svg {
+    fill: grey;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #main {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(227, 227, 227);
+    padding: 20px 40px;
+  }
+
+  .item {
+    height: 30px;
+    margin: 20px 0;
+  }
+}
