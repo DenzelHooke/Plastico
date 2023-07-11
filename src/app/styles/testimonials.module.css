@@ -36,7 +36,7 @@
 }
 #main .item .contact .name__wrapper {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 #main .item .contact p {
   color: #848484;
