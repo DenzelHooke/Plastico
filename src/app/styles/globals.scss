@@ -171,3 +171,20 @@ span {
     color: $dark-black;
   }
 }
+
+.footer-link {
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    //
+    // font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    padding: 150px 20px;
+  }
+}

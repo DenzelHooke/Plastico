@@ -53,7 +53,9 @@ const FeaturedProducts = () => {
                       <div className={styles.info}>
                         <div>
                           <p className="default-text">{item.name}</p>
-                          <p className="flat-grey">{item.series}</p>
+                          <p className={`${'flat-grey'} ${styles.series}`}>
+                            {item.series}
+                          </p>
                         </div>
                         <div className={`${styles.cost} bold-text`}>
                           ${item.cost}

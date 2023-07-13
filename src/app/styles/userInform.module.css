@@ -54,4 +54,11 @@
   .inform__wrapper .item {
     margin: 20px;
   }
+  .inform__wrapper .item h4 {
+    margin-bottom: 10px;
+  }
+  .inform__wrapper .item .icon__wrapper {
+    margin: 0;
+    margin-bottom: 5px;
+  }
 }/*# sourceMappingURL=userInform.module.css.map */

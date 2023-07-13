@@ -2,6 +2,16 @@
   text-align: center;
   margin-bottom: 80px;
 }
+#main a {
+  transition: all 200ms ease-in-out;
+}
+#main a:hover {
+  color: rgb(126, 48, 242);
+}
+
+.series {
+  margin-top: -8px;
+}
 
 .product__collection {
   display: flex;

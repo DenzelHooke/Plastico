@@ -17,4 +17,10 @@
 }
 #nav ul li {
   margin: 0 40px;
+}
+
+@media screen and (max-width: 800px) {
+  #nav img {
+    width: 80px;
+  }
 }/*# sourceMappingURL=navbar.module.css.map */

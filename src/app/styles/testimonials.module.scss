@@ -20,7 +20,7 @@
   .item {
     text-align: center;
     width: 415px;
-    height: 280px;
+    min-height: 280px;
     padding: 20px 40px;
     border-radius: 10px;
     background-color: white;
@@ -42,7 +42,7 @@
 
       .name__wrapper {
         display: flex;
-        align-items: end;
+        align-items: flex-end;
       }
 
       p {
@@ -65,7 +65,12 @@
 }
 
 // Mobile
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
+  #main {
+    .flex__wrapper {
+      padding: 0;
+    }
+  }
 }
 
 // Desktop
