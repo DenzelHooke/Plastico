@@ -1,8 +1,16 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import styles from '../styles/productSpecs.module.scss';
 import ProductSpec from './ProuctSpec';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 
 const ProductSpecs = () => {
+  const itemRef = useRef(null);
+  gsap.registerPlugin(ScrollTrigger);
   const data = [
     {
       heading: "Double-wall Synthetic Polylactic Acid",
@@ -16,8 +24,29 @@ const ProductSpecs = () => {
       heading: "High Capacity Storage",
       p: "With a capacity of 25ml, you’ll never worry about running out of space."
     },
-
   ]
+
+  useEffect(() => {
+    const itemAnim = gsap.fromTo(
+      itemRef.current,
+      {
+        translateX: '-50vw',
+        opacity: '0%',
+      },
+      {
+        translateX: 0,
+        opacity: '100%',
+        ease: 'ease-out',
+
+        scrollTrigger: {
+          trigger: itemRef.current,
+          start: 'top 50% bottom 40%',
+          end: 'top 20%',
+          scrub: 2,
+        },
+      }
+    );
+  }, []);
 
   return (
     <section id={styles.main} className="section">
@@ -48,9 +77,10 @@ const ProductSpecs = () => {
             {
               data.map((item) => {
                 return <div className={styles.item}>
-                    <ProductSpec
-                  heading={item.heading}
-                  p={item.p}
+                  <ProductSpec
+                    ref={itemRef}
+                    heading={item.heading}
+                    p={item.p}
                 ></ProductSpec>
                 </div>
               })
