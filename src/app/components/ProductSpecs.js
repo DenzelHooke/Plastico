@@ -17,7 +17,7 @@ const ProductSpecs = () => {
       p: "Each layer is built using State Synthetic PLA which enables a lifespan of only 2 years when exposed to air."
     },
     {
-      heading: "Nearby Refill Stations",
+      heading: "Nearby Refill Station",
       p: "When low on water, a geolocation signal is emitted which pings nearby water fountains and hydration stations."
     },
     {
