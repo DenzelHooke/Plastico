@@ -17,7 +17,10 @@ const Benefiets = () => {
                   <BsRecycle size={icon_size} />
                 </div>
               </div>
-              <h3>100% recyclable materials</h3>
+              <h3>
+                100%
+                <br /> recyclable materials
+              </h3>
               <p>
                 Using nano-cell technology, the Plastico fluid bottle completely
                 de-composes within 1 year of being in the ocean.
@@ -45,7 +48,10 @@ const Benefiets = () => {
                   <GiSeaCreature size={icon_size} />
                 </div>
               </div>
-              <h3>100% recyclable materials</h3>
+              <h3>
+                100%
+                <br /> recyclable materials
+              </h3>
               <p>
                 We care about preserving our planet, with each purchase, 2.5% of
                 the proceeds go towards helping an animal in need.{' '}

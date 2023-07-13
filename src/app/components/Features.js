@@ -36,13 +36,17 @@ const Features = () => {
               <div className={styles.stat__wrapper}>
                 <div>
                   <p>
-                    <span className="bold-text italic-text">85%</span> lighter
-                    compared to competition
+                    <span className="bold-text italic-text">85%</span>
+                    <br /> lighter compared to competition
                   </p>
                 </div>
               </div>
               <div className={styles.image}>
-                <Image src="https://bottle-site.s3.us-west-1.amazonaws.com/assets/pexels-engin-akyurt-1460890.jpg" fill priority />  
+                <Image
+                  src="https://bottle-site.s3.us-west-1.amazonaws.com/assets/pexels-engin-akyurt-1460890.jpg"
+                  fill
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -79,7 +83,11 @@ const Features = () => {
               </div>
               <div className={styles.image}>
                 <span>Synthetic Fiber</span>
-                <Image src="https://bottle-site.s3.us-west-1.amazonaws.com/assets/pexels-vlad-kovriga-339119.jpg" fill priority />
+                <Image
+                  src="https://bottle-site.s3.us-west-1.amazonaws.com/assets/pexels-vlad-kovriga-339119.jpg"
+                  fill
+                  priority
+                />
               </div>
             </div>
           </div>
