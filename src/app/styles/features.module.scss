@@ -132,13 +132,12 @@ $item-margin: 180px;
   align-self: center;
   grid-column: 1 / 3;
   grid-row: 1;
-  
+
   background-color: $dark-black;
 
   p {
     color: white;
   }
-
 
   span {
     font-size: 25px;
@@ -151,6 +150,9 @@ $item-margin: 180px;
     margin-bottom: 50px;
   }
 
+  .item__text__wrapper__body {
+    margin-bottom: 20px;
+  }
   .item__text__wrapper__title {
     line-height: 40px;
   }
@@ -164,7 +166,6 @@ $item-margin: 180px;
 
   .stat__wrapper {
     max-width: 200px;
-
   }
   .image__wrapper {
     // display: block;

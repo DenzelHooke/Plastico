@@ -73,6 +73,9 @@
     display: block;
     margin-bottom: 50px;
   }
+  .item__text__wrapper__body {
+    margin-bottom: 20px;
+  }
   .item__text__wrapper__title {
     line-height: 40px;
   }

@@ -1,12 +1,15 @@
 #nav {
-  height: 80px;
+  min-height: 80px;
   background-color: #fafafa;
   padding: 10px;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 10000;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#nav > div {
+  flex-wrap: wrap;
 }
 #nav ul {
   width: 100%;
@@ -19,8 +22,33 @@
   margin: 0 40px;
 }
 
+.hamburger {
+  display: none;
+}
+
+.item__wrapper {
+  display: flex;
+}
+
 @media screen and (max-width: 800px) {
   #nav img {
     width: 80px;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+  }
+  .item__wrapper {
+    justify-content: space-between;
+  }
+  .nav__links {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .image__wrapper {
+    flex: 100;
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=navbar.module.css.map */

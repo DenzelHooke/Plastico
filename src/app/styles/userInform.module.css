@@ -28,6 +28,7 @@
 .inform__wrapper {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 .inform__wrapper .item {
   width: 323px;

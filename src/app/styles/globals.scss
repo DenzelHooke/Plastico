@@ -180,6 +180,7 @@ span {
 .footer-link {
   cursor: pointer;
   transition: all 300ms ease-in-out;
+  margin: 5px 0;
 
   &:hover {
     //
@@ -192,4 +193,8 @@ span {
   .section {
     padding: 150px 20px;
   }
+}
+
+.clickable {
+  cursor: pointer;
 }

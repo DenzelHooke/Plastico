@@ -1,11 +1,12 @@
 @import 'utilities/variables';
 
 #main {
-  padding: 80px 40px;
+  padding: 30px 40px;
 
   background-color: $dark-black;
   color: white;
   p {
+    display: none;
     color: white;
   }
 }
@@ -23,7 +24,7 @@
   max-width: 350px;
   justify-content: space-between;
   flex: 100;
-
+  gap: 20px;
   ul {
     list-style: none;
     max-width: 100px;
@@ -33,21 +34,68 @@
 }
 
 .copyright {
+  margin-top: 40px;
+  border-top: 1px solid white;
   padding: 10px 0;
-  text-align: center;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  .social_item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    background-color: $brand-purple-lightened;
+    border: 1px solid $dark-black;
+    padding: 5px;
+    border-radius: 10px;
+
+    cursor: pointer;
+  }
+
+  svg {
+    path {
+      fill: $dark-black;
+    }
+  }
+
+  max-width: 120px;
+}
+
+.logo_wrapper {
+  flex: 100;
 }
 
 .logo {
   position: relative;
-  width: 80px;
+  width: 60px;
+  height: 60px;
   aspect-ratio: 2/1;
+  margin: 0;
   margin-bottom: 20px;
+
+  img {
+    object-fit: contain;
+  }
 }
 
-@media screen and (max-width: 950px) {
-  .item__wrapper {
+@media screen and (max-width: 730px) {
+  .logo_wrapper {
+    display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .resources {
+    max-width: 100%;
+    flex: 100;
+  }
+
+  .item__wrapper {
+    flex-direction: column;
+    // align-items: center;
 
     div {
       margin: 20px 0;

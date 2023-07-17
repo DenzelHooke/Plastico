@@ -1,17 +1,34 @@
 import styles from '../styles/footer.module.scss';
 import Image from 'next/image';
+import { BsInstagram, BsTwitter, BsFacebook } from 'react-icons/bs';
+import globals from '../global';
 
 const Footer = () => {
+  const icon_size = globals.icon_size;
+
   return (
     <section id={styles.main}>
       <div className="container">
-        <div className={`${styles.logo}`}>
-          <Image
-            src="https://bottle-site.s3.us-west-1.amazonaws.com/assets/plastico-high-resolution-logo-white-on-transparent-background.png"
-            fill
-          />
-        </div>
         <div className={`flex ${styles.item__wrapper}`}>
+          <div className={styles.logo_wrapper}>
+            <div className={`${styles.logo}`}>
+              <Image
+                src="https://bottle-site.s3.us-west-1.amazonaws.com/assets/plastico-high-resolution-logo-white-on-transparent-background.png"
+                fill
+              />
+            </div>
+            <div className={styles.social}>
+              <div className={styles.social_item}>
+                <BsInstagram size={icon_size} />
+              </div>
+              <div className={styles.social_item}>
+                <BsTwitter size={icon_size} />
+              </div>
+              <div className={styles.social_item}>
+                <BsFacebook size={icon_size} />
+              </div>
+            </div>
+          </div>
           <div className={styles.body}>
             <p>
               Plastico, the eco-friendly water bottle company, has created the
