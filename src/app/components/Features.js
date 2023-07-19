@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import styles from '../styles/features.module.scss';
+
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 const Features = () => {
   //   const data = [
   //     {

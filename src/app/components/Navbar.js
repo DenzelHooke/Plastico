@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import styles from '../styles/navbar.module.scss';
 import Image from 'next/image';
