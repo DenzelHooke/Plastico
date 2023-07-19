@@ -14,6 +14,10 @@
     max-width: 550px;
     padding-top: 50px;
 
+    .inner__1 {
+      opacity: '100%';
+    }
+
     .inner_2 {
       margin-top: 100px;
       display: flex;
@@ -28,6 +32,10 @@
       }
     }
   }
+}
+
+.button {
+  opacity: '0%';
 }
 
 @media screen and (max-width: 1000px) {

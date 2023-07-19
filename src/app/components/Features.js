@@ -1,8 +1,11 @@
+'use client';
+
 import Image from 'next/image';
 import styles from '../styles/features.module.scss';
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { useEffect } from 'react';
 
 const Features = () => {
   //   const data = [
@@ -14,11 +17,56 @@ const Features = () => {
   //     },
   //   ];
 
+  useEffect(() => {
+    const duration = 1;
+    const start = '25% center';
+    // const tl = gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: '.feature-item',
+    //     start: '25% center',
+    //     end: 'bottom center',
+    //     scrub: true,
+    //     markers: true,
+    //   },
+    // });
+
+    // tl.to('.feature-item', {
+    //   opacity: '100%',
+    // });
+
+    // tl.fromTo(
+    //   '.feature-item',
+    //   {
+    //     opacity: 0,
+    //   },
+    //   {
+    //     opacity: 100,
+    //   }
+    // );
+
+    const items = gsap.utils.toArray('.feature-item');
+
+    items.forEach((item) => {
+      gsap.from(item, {
+        opacity: 0,
+        duration: duration,
+        x: -100,
+        scrollTrigger: {
+          trigger: item,
+          start: start,
+          markers: true,
+        },
+      });
+    });
+  }, []);
+
+  // useEffect(() => {}, []);
+
   return (
     <section id={styles.main} className="section">
       <div className="container">
         <div className={`${styles.items__wrapper}`}>
-          <div className={`${styles.item} flex flex__space`}>
+          <div className={`${styles.item} flex flex__space feature-item`}>
             <div className={styles.item__text__wrapper}>
               <p
                 className={`${styles.item__text__wrapper__sub} highlight-text small-text`}>
@@ -54,7 +102,8 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className={`${styles.item} flex flex__space ${styles.even}`}>
+          <div
+            className={`${styles.item} flex flex__space ${styles.even} feature-item`}>
             <div className={styles.item__text__wrapper}>
               <p
                 className={`${styles.item__text__wrapper__sub} highlight-text small-text`}>

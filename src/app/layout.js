@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar';
 import './styles/globals.css';
 import { Poppins } from 'next/font/google';
-import Lenis from '@studio-freight/lenis';
 
 // const poppins = Poppins({
 //   weight: ['100', '200', '400', '500', '600', '700', '800'],
