@@ -54,7 +54,7 @@ const Features = () => {
         scrollTrigger: {
           trigger: item,
           start: start,
-          markers: true,
+          markers: false,
         },
       });
     });
