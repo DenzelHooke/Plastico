@@ -1,44 +1,27 @@
 #main {
-  padding: 30px 40px;
-  background-color: #1f1f1f;
+  padding: 50px 40px;
+  background-color: rgb(18, 18, 18);
   color: white;
 }
 #main p {
   display: none;
-  color: white;
-}
-
-.body {
-  max-width: 500px;
+  color: #1f1f1f;
 }
 
 .item__wrapper {
   justify-content: space-between;
 }
 
-.resources {
-  display: flex;
-  max-width: 350px;
-  justify-content: space-between;
-  flex: 100;
-  gap: 20px;
-}
-.resources ul {
-  list-style: none;
-  max-width: 100px;
-  flex: 100;
-}
-
 .copyright {
-  margin-top: 40px;
-  border-top: 1px solid white;
-  padding: 10px 0;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .social {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   max-width: 120px;
 }
 .social .social_item {
@@ -49,14 +32,11 @@
   border: 1px solid #1f1f1f;
   padding: 5px;
   border-radius: 10px;
+  max-height: 40px;
   cursor: pointer;
 }
 .social svg path {
   fill: #1f1f1f;
-}
-
-.logo_wrapper {
-  flex: 100;
 }
 
 .logo {

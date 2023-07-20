@@ -120,7 +120,7 @@ const Features = () => {
                   meticulously engineered to undergo a remarkable
                   transformation. By harnessing the power of nature, they not
                   only preserve the integrity of our environment but also
-                  gracefully decompose within a relatively short period
+                  gracefully decompose within a relatively short period.
                 </p>
               </div>
             </div>

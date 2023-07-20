@@ -1,47 +1,48 @@
 @import 'utilities/variables';
 
 #main {
-  padding: 30px 40px;
+  padding: 50px 40px;
 
-  background-color: white;
-  color: $dark-black p {
+  background-color: rgb(18, 18, 18);
+  color: white;
+  p {
     display: none;
     color: $dark-black;
   }
 }
 
-.body {
-  max-width: 500px;
-}
+// .body {
+//   max-width: 500px;
+// }
 
 .item__wrapper {
   justify-content: space-between;
 }
 
-.resources {
-  display: flex;
-  max-width: 350px;
-  justify-content: space-between;
-  flex: 100;
-  gap: 20px;
-  ul {
-    list-style: none;
-    max-width: 100px;
-    flex: 100;
-    // margin: 0 20px;
-  }
-}
+// .resources {
+//   display: flex;
+//   max-width: 350px;
+//   justify-content: space-between;
+//   flex: 100;
+//   gap: 20px;
+//   ul {
+//     list-style: none;
+//     max-width: 100px;
+//     flex: 100;
+//     // margin: 0 20px;
+//   }
+// }
 
 .copyright {
-  margin-top: 40px;
-  border-top: 1px solid $dark-black;
-  padding: 10px 0;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .social {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   .social_item {
     display: flex;
     align-items: center;
@@ -50,6 +51,7 @@
     border: 1px solid $dark-black;
     padding: 5px;
     border-radius: 10px;
+    max-height: 40px;
 
     cursor: pointer;
   }
@@ -64,7 +66,7 @@
 }
 
 .logo_wrapper {
-  flex: 100;
+  // flex: 100;
 }
 
 .logo {

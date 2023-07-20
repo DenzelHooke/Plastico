@@ -9,6 +9,7 @@
 
 .items__wrapper {
   gap: 50px;
+  position: relative;
 }
 
 .image__wrapper {
