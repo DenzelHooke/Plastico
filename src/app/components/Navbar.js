@@ -38,9 +38,9 @@ export default function Navbar() {
           </Link>
         </div>
         <ul className={`ul__li--none flex flex__align ${styles.nav__links}`}>
-          <li className="clickable">HOME</li>
-          <li className="clickable">ABOUT US</li>
-          <li className="clickable">PRE-ORDER</li>
+          <li className="clickable bold-text" id={styles.home__link}><Link href="/" className='link'>HOME</Link></li>
+          <li className={`clickable ${styles.link}`}>ABOUT US</li>
+          <li className={`clickable ${styles.link}`}>PRE-ORDER</li>
         </ul>
         <div className={styles.hamburger}>
           <div className="clickable">

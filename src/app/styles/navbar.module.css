@@ -45,6 +45,38 @@
     display: none;
   }
 }
+.box__link {
+  padding: 5px 20px;
+}
+
+#home__link {
+  background-color: #1f1f1f;
+  padding: 5px 20px;
+}
+#home__link a {
+  color: white;
+}
+
+.link {
+  position: relative;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  opacity: 100;
+  width: 0;
+  height: 3px;
+  background-color: rgb(126, 48, 242);
+  transition: all 200ms ease-out;
+}
+.link:hover::after {
+  width: 100%;
+  opacity: 100;
+  left: 0;
+}
+
 @media screen and (max-width: 540px) {
   .image__wrapper {
     flex: 100;

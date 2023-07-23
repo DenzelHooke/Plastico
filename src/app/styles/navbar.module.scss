@@ -29,6 +29,9 @@
   }
 }
 
+
+
+
 .hamburger {
   display: none;
 }
@@ -53,6 +56,46 @@
   }
   .nav__links {
     display: none;
+  }
+}
+
+.box__link {
+  padding: 5px 20px;
+}
+
+#home__link {
+  background-color: $dark-black;
+  padding: 5px 20px;
+
+  a {
+    color: white;
+  }
+}
+
+.link {
+  // transition: all ease-in 500ms;
+  position: relative; 
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    opacity: 100;
+    width: 0;
+    height: 3px;
+    background-color: $brand-purple;
+    transition: all 200ms ease-out;
+    
+  }
+  &:hover {
+    &::after {
+      width: 100%;
+      opacity: 100;
+      left: 0
+    }
+    
+
   }
 }
 
