@@ -8,18 +8,10 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { useEffect } from 'react';
 
 const Features = () => {
-  //   const data = [
-  //     {
-  //       title: `HyperFlex Technology`,
-  //       sub: 'LIMITLESS',
-  //       body: `With our patented HyperFlex™ technology, we’ve compacted 1.6L in a 850ml size bottle.
-  //       This means you can carry more without worrying about taking up precious space.`,
-  //     },
-  //   ];
 
   useEffect(() => {
     const duration = 1;
-    const start = '25% center';
+    const start = 'top 50%';
     // const tl = gsap.timeline({
     //   scrollTrigger: {
     //     trigger: '.feature-item',
