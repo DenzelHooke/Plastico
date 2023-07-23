@@ -24,6 +24,7 @@
 
 .grid {
   display: flex;
+  justify-content: center;
 }
 
 .item__wrapper {
@@ -35,6 +36,7 @@
 .item {
   margin: 20px 0;
   position: relative;
+  max-width: 550px;
 }
 .item::after {
   content: "";
@@ -49,8 +51,12 @@
 
 .image {
   position: relative;
-  height: 456px;
-  width: 656px;
+  height: 600px;
+  max-width: 500px;
+  margin-right: 50px;
+  flex: 100;
+}
+.image img {
   -o-object-fit: contain;
      object-fit: contain;
 }

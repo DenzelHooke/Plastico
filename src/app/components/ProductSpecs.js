@@ -49,8 +49,8 @@ const ProductSpecs = () => {
   }, []);
 
   return (
-    <section id={styles.main} className="section">
-      <div className="container">
+    <section id={styles.main}>
+      <div className="container section">
         {/* //TODO INSERT HEADING */}
         <header className={styles.heading}>
           <div className={styles.heading__inner}>

@@ -78,9 +78,10 @@ const Features = () => {
               </p>
               <div className={styles.item__text__wrapper__body}>
                 <p className="flat-grey">
-                  With our patented HyperFlex™ technology, we’ve compacted 1.6L
-                  in a 850ml size bottle. This means you can carry more without
-                  worrying about taking up precious space.
+                Introducing our revolutionary HyperFlex Technology™ - a patented innovation that allows us to compress 1.6L into a compact 850ml bottle.
+                 This incredible advancement enables you to carry more without sacrificing valuable space. 
+                 Notably, it's 85% lighter than competing products on the market, 
+                 ensuring a more effortless and efficient experience.
                 </p>
               </div>
             </div>

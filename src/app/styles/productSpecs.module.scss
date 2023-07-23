@@ -62,6 +62,8 @@
 
 .grid {
   display: flex;
+  justify-content: center;
+
 }
 
 .item__wrapper {
@@ -73,6 +75,7 @@
 .item {
   margin: 20px 0;
   position: relative;
+  max-width: 550px;
   &::after {
     content: '';
     width: 10px;
@@ -91,9 +94,13 @@
 
 .image {
   position: relative;
-  height: 456px;
-  width: 656px;
-  object-fit: contain;
+  height: 600px;
+  max-width: 500px;
+  margin-right: 50px;
+  flex: 100;
+  img {
+    object-fit: contain;
+  }
 }
 
 .cta__button {
